@@ -1,0 +1,41 @@
+{
+  "name": "puppetlabs-dsc",
+  "version": "1.5.0",
+  "author": "Puppet Inc",
+  "summary": "PowerShell Desired State Configuration (DSC)",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/puppetlabs-dsc",
+  "project_page": "https://github.com/puppetlabs/puppetlabs-dsc",
+  "issues_url": "https://tickets.puppet.com/browse/MODULES",
+  "tags": [
+    "powershell",
+    "desired-state-configuration",
+    "dsc"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "Server 2008 R2",
+        "Server 2012",
+        "Server 2012 R2",
+        "7",
+        "8",
+        "8.1",
+        "10"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/reboot",
+      "version_requirement": ">= 1.2.1 < 2.0.0"
+    }
+  ]
+}
